@@ -10,6 +10,6 @@ Both applications have RestAPI's, which I am using to carry out this integration
 Projeto com o objetivo de tentar automatizar o processo de gestão de ativos na ferramenta utilizada no ambiente da corporação, sendo esta o NETBOX.
 <br>
 <br>
-Com este projeto estou utilizando o GLPI como um intermediário entre a base de dados atualizada em que desejo atualizar o NETBOX!!
+Com este projeto estou utilizando o GLPI como um intermediário entre a base de dados originária em que desejo utilizar para atualizar o NETBOX automaticamente, já que nesta ferramenta as alterações são feitas de forma mais manual, tanto pela própria aplicação quanto através de sua API!!
 
   
