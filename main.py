@@ -11,6 +11,9 @@ netbox_headers = {
 }
 
 
+# --- NETBOX FUNCTIONS ---
+# ==========================================
+
 def get_netbox_device():
     r1 = requests.get(NETBOX_URL, headers=netbox_headers, verify=False)
     
@@ -18,5 +21,21 @@ def get_netbox_device():
         print(r1.text)
     else:
         print(f"Error {r1.text} !!")
+
+
+def update_netbox_device():
+    ...
+# ==========================================
+
+
+
+
+
+# --- GLPI FUNCTIONS ---
+# ===========================================
+def get_glpi_device():
+    ... 
+
+
 if __name__ == "__main__":
     get_netbox_device()    
