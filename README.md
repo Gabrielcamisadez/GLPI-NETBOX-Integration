@@ -20,5 +20,7 @@ Utilizarei o python para este funcionamento.
 
 <h4>Ferramentas utilizadas :</h4>
 - Netbox
+<br>
 - GLPI
+<br>
 - VMware - VCenter
