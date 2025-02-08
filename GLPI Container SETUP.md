@@ -1,1 +1,78 @@
 
+Clone o repositório oficial do GLPI : https://github.com/glpi-project/glpi/releases
+
+Crie 2 arquivos : docker-compose.yml e Dockerfile
+
+<h3>docker-compose.yml :</h3>
+  version: "3.8"
+
+services:
+  db:
+    image: mysql:5.7
+    container_name: glpi_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: glpi
+      MYSQL_USER: glpi
+      MYSQL_PASSWORD: glpi
+    volumes:
+      - db_data:/var/lib/mysql
+
+  glpi:
+    build: .
+    container_name: glpi
+    restart: always
+    depends_on:
+      - db
+    ports:
+      - "8080:80"
+    volumes:
+      - /home/ilak/projects/glpi/glpi:/var/www/html
+    environment:
+      GLPI_DB_HOST: db
+      GLPI_DB_NAME: glpi
+      GLPI_DB_USER: glpi
+      GLPI_DB_PASSWORD: glpi
+
+volumes:
+  db_data:
+
+
+<h3>Dockerfile</h3>
+  FROM php:7.4-apache
+
+RUN apt-get update && apt-get install -y \
+    libldap2-dev \
+    libbz2-dev \
+    libpng-dev \
+    libjpeg-dev \
+    libfreetype6-dev \
+    libicu-dev \
+    libxml2-dev \
+    zlib1g-dev \
+    libssl-dev \
+    && docker-php-ext-install ldap bz2 gd intl xml opcache mysqli pdo pdo_mysql \
+    && docker-php-ext-enable opcache mysqli pdo pdo_mysql
+
+RUN a2enmod rewrite
+
+COPY glpi/ /var/www/html/
+
+RUN mkdir -p /var/www/html/files /var/www/html/config \
+    && chown -R www-data:www-data /var/www/html/files /var/www/html/config \
+    && chmod -R 755 /var/www/html/files /var/www/html/config \
+    && chmod -R 777 /var/www/html/files \
+    && chmod -R 777 /var/www/html/config
+
+EXPOSE 80
+
+ENV GLPI_DB_HOST=db
+ENV GLPI_DB_NAME=glpi
+ENV GLPI_DB_USER=glpi
+ENV GLPI_DB_PASSWORD=glpi
+
+CMD ["apache2-foreground"]
+
+
+  
