@@ -1,4 +1,7 @@
 # GLPI-NETBOX-Integration
 trainee project !!
 
-                       ------- VMware integration with NETBOX -------=
+<h2>VMware integration with Netbox</h2>
+
+Este projeto visa uma automatização no processo de atualização de informações no Netbox, a partir de informações atualizadas do VCenter - VMware.
+<br>
