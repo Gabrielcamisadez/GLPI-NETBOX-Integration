@@ -4,7 +4,7 @@ Clone o repositório oficial do GLPI : https://github.com/glpi-project/glpi/rele
 Crie 2 arquivos : docker-compose.yml e Dockerfile
 
 <h3>docker-compose.yml :</h3>
-  version: "3.8"
+<code>version: "3.8"
 
 services:
   db:
@@ -36,7 +36,7 @@ services:
       GLPI_DB_PASSWORD: glpi
 
 volumes:
-  db_data:
+  db_data:</code>
 
 
 <h3>Dockerfile</h3>
