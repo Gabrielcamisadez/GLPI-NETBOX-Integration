@@ -18,7 +18,7 @@ netbox_headers = {
 def post_device():
     data = [{
         "role": 1,
-        "name": "Debian Estagiario",
+        "name": "Fedora Lab",
         "device_type": 1,
         "device_role": 1,
         "site": 2,
