@@ -33,12 +33,23 @@ def get_device():
     r1 = requests.get(netbox_url, headers=netbox_headers, verify=False)
     print(r1.status_code)
     print(r1.text)
+    
+
 
 
 def update_device():
-    r1 = requests.patch(netbox_url, )    
+    update_dt = [{
+        "id": 31,
+        "role": 3,
+        "name": "Fedore LAB",
+    }]
+    r1 = requests.patch(netbox_url, headers=netbox_headers, json=update_dt, verify=False)    
+    print(r1.status_code)
+    
+    
 
 
 if __name__ == "__main__":
     # post_device()
-    get_device()
+    # get_device()
+    update_device()
