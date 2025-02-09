@@ -19,7 +19,9 @@ Será necessário dar permissão para dois diretórios presentes no diretório o
 ```
 sudo chmod +777 /home/estagiario/projects/glpi/config/
 sudo chmod +777 /home/estagiario/projects/glpi/files/
-
+---------------------------------------------------------
+sudo chown -U 33:33 /home/estagiario/projects/glpi/config/
+sudo chown -U 33:33 /home/estagiario/projects/glpi/files/
 ```
 
   
