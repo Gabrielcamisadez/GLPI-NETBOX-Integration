@@ -9,8 +9,15 @@ https://github.com/fusioninventory/fusioninventory-for-glpi/
 <h2>Setup GLPI Container :</h2>
 <br>
 Instale o Diretório oficial do GLPI from: https://github.com/glpi-project/glpi
+-----------------------------------------------------------
 <br>
+<h2>Insira estes dois arquivos docker no diretório oficial do GLPI</h2> 
+--------------------------------------------------------
+- Dockerfile
 <br>
+- docker-compose.yml
+<br>
+ <br>
 Será necessário dar permissão para dois diretórios presentes no diretório oficial <b>glpi/</b> :
 <br>
 - Files
@@ -26,5 +33,3 @@ sudo chmod +777 /home/estagiario/projects/glpi/files/
 sudo chown -U 33:33 /home/estagiario/projects/glpi/config/
 sudo chown -U 33:33 /home/estagiario/projects/glpi/files/
 ```
-
-  
