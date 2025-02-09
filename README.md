@@ -11,7 +11,7 @@ Nativamente o Netbox ainda não possui um plugin específico para esta tarefa, s
 <br>
 O GLPI e o Netbox possuem sua própria RestAPI, no qual utilizarei para realizar a transmissão dos dados do GLPI para o Netbox.
 <br>
-Utilizarei o python para este funcionamento.
+Utilizarei o python para este processo.
 
 
 <h4>Tecnologias utilizadas :</h4>
