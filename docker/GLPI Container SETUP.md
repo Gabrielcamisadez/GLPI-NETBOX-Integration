@@ -18,7 +18,7 @@ Instale o Diretório oficial do GLPI from: https://github.com/glpi-project/glpi
 - docker-compose.yml
 <br>
 <br>
-Será necessário dar permissão para dois diretórios presentes no diretório oficial <b>glpi/</b> :
+<h4>Será necessário dar permissão para dois diretórios presentes no diretório oficial <b>glpi/</b> :</h4>
 <br>
 - Files
 <br>
