@@ -15,6 +15,7 @@ Será necessário dar permissão para dois diretórios presentes no diretório o
 <br>
 - Config
 <br>
+<br>
 
 ```
 sudo chmod +777 /home/estagiario/projects/glpi/config/
