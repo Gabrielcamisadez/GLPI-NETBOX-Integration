@@ -41,7 +41,6 @@ sudo chown -U 33:33 /home/estagiario/projects/glpi/files/
 
 ```
 docker compose up --build -d
-
 ```
 
 <br>
