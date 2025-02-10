@@ -5,8 +5,8 @@ import urllib3
 urllib3.disable_warnings()
 
 
-netbox_url = 'http://localhost:8000/api/dcim/devices/'
-netbox_token = '1ec53d4afb6b10cd085586b44b37e985760140ce'
+netbox_url = 'https://srvnetboxdsv-trf1.trf1.gov.br/api/dcim/devices/'
+netbox_token = '4cd4bda8a82de5bcabf63f909ecdd801919e200a'
 
 
 
@@ -22,7 +22,11 @@ def post_device():
         "device_type": 1,
         "device_role": 1,
         "site": 2,
-        "tenant": 1
+        "tenant": 1,
+        "custom_fields": {
+            "Patrimonio": 1007
+
+        }
     }]
 
     r1 = requests.post(netbox_url, headers=netbox_headers, json=data, verify=False)
@@ -50,6 +54,6 @@ def update_device():
 
 
 if __name__ == "__main__":
-    # post_device()
+    post_device()
     # get_device()
-    update_device()
+    # update_device()
