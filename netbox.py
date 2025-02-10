@@ -43,9 +43,9 @@ def get_device():
 
 update_dt = [{
     "id": 23,
-    "name": "Ubuntu LAB2",
+    "name": "VMEsxi10",
     "tenant": 4,
-    "position": 2.0,
+    "position": 3.0,
     "device_type": 22,
     "role": 10,
     "interface_count": 55,
