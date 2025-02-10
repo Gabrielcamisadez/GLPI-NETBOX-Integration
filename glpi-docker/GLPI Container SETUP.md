@@ -33,3 +33,13 @@ sudo chmod +777 /home/estagiario/projects/glpi/files/
 sudo chown -U 33:33 /home/estagiario/projects/glpi/config/
 sudo chown -U 33:33 /home/estagiario/projects/glpi/files/
 ```
+
+--------------------------------------------------------
+
+<h2>Inicie o docker-compose</h2>
+<br>
+```
+docker compose up --build -d
+```
+<br>
+Verifique se os dois arquivos estão sendo executados corretamente.
