@@ -17,14 +17,14 @@ netbox_headers = {
 
 def post_device():
     data = [{
-        "role": 1,
-        "name": "Fedora Lab",
-        "device_type": 1,
-        "device_role": 1,
-        "site": 2,
-        "tenant": 1,
+        "role": 7,
+        "name": "FourthLinux",
+        "device_type": 5,
+        "device_role": 0,
+        "site": 1,
+        "tenant": 2,
         "custom_fields": {
-            "Patrimonio": 1007
+            "Patrimonio": 1003
 
         }
     }]
@@ -41,19 +41,25 @@ def get_device():
 
 
 
-def update_device():
-    update_dt = [{
-        "id": 31,
-        "role": 3,
-        "name": "Fedore LAB",
+update_dt = [{
+    "id": 23,
+    "name": "Ubuntu LAB2",
+    "tenant": 4,
+    "position": 2.0,
+    "device_type": 22,
+    "role": 10,
+    "interface_count": 55,
     }]
-    r1 = requests.patch(netbox_url, headers=netbox_headers, json=update_dt, verify=False)    
+
+def update_device(data):
+    r1 = requests.patch(netbox_url, headers=netbox_headers, json=data, verify=False)    
     print(r1.status_code)
+    print(r1.text)
     
     
 
 
 if __name__ == "__main__":
-    post_device()
+    # post_device()
     # get_device()
-    # update_device()
+    update_device(update_dt)
