@@ -48,6 +48,12 @@ def update_device(data):
     print(r1.text)
     
 
+def update_vm(data):
+    netbox_vms_url = "https://srvnetboxdsv-trf1.trf1.gov.br/api/virtualization/virtual-machines/"
+    r1 = requests.patch(netbox_vms_url, headers=netbox_headers, json=data, verify=False)    
+    print(r1.status_code)
+    print(r1.text)
+
 
 update_devic = [{
     "id": 3,
@@ -59,10 +65,11 @@ update_devic = [{
     "interface_count": 55,
     }]
 
-update_vm = [{
-    "id": 3,
-    "name": "srvbkp03-ac",
-    "primary_ip6": 172
+data_vm = [{
+    "id": 1,
+    "name": "srvvcenter06-trf1",
+    "status": "active"
+    
 }]
     
 
@@ -70,4 +77,5 @@ update_vm = [{
 if __name__ == "__main__":
     # post_device()
     # get_device()
-    update_device(update_vm)
+    update_vm(data_vm)
+    # update_device(update_devic)
