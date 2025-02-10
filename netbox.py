@@ -66,13 +66,13 @@ update_devic = [{
     }]
 
 data_vm = [{
-    "id": 15,
-    "status": "active",
+    "id": 24,
+    "status": "offline",
     "custom_fields": {
         "Transport": "ssh"
     },
-    "serial": 2025,
-    "description": "VM da SETAV que o estagiário da SESEI está alterando as infos no Netbox De desenvolvimento apenas, não no Netbox de produção."
+    "serial": "",
+    "description": ""
     
 }]
     
