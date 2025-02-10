@@ -66,9 +66,11 @@ update_devic = [{
     }]
 
 data_vm = [{
-    "id": 1,
-    "name": "srvvcenter06-trf1",
-    "status": "active"
+    "id": 15,
+    "status": "active",
+    "custom_fields": {
+        "Transport": "ssh"
+    }
     
 }]
     
