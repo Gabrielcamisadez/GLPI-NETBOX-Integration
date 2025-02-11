@@ -67,12 +67,14 @@ update_devic = [{
 
 data_vm = [{
     "id": 24,
-    "status": "offline",
+    "name": "srvfw010-vca",
+    "status": "active",
     "custom_fields": {
         "Transport": "ssh"
     },
     "serial": "",
-    "description": ""
+    "description": "VM TEST FOR UPDATES",
+    "serial": 1010
     
 }]
     
