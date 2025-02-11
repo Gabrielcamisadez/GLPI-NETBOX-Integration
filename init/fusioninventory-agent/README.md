@@ -18,7 +18,7 @@ Após o estabelecimento do GLPI, o plugin fusioninventory deve ser adicionado a 
 Em seu sistema instale o agent como descrito na Documentação oficial https://documentation.fusioninventory.org/FusionInventory_tasks/ 
 <br>
 <br>
-Estou utilizando o SO Linux ->
+Estou utilizando no SO Linux ->
 <br>
 
 ```
