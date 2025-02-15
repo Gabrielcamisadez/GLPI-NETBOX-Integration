@@ -34,4 +34,6 @@
 [info] 'scan-homedirs' configuration parameters disabled, ignoring virtualbox virtual machines in user directories
 ```
 <br>
-- A info 'No job schedule returned from server at http://localhost:8080/' indica que na aplicação do GLPI as configurações de uma task ainda não foram efetuadas, sendo necessárias para o funcionamento do plugin
+- A info 'No job schedule returned from server at http://localhost:8080/' 
+<br>
+indica que na aplicação do GLPI as configurações de uma task ainda não foram efetuadas, sendo necessárias para o funcionamento do plugin
