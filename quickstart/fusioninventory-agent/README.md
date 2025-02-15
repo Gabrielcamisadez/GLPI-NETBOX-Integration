@@ -13,6 +13,7 @@
 <br>
 https://documentation.fusioninventory.org/FusionInventory_agent/installation/linux/deb/ 
 <br>
+<br>
 💻 Existem documentações para as outras Distribuições Linux e para Windows !!
 <br>
 <br>
@@ -27,8 +28,23 @@ O arquivo a ser baixado -> fusioninventory-agent-task-esx_2.5.2-1_all.deb
 
 
 ## Usage 
+<br>
+3 - No GLPI será necessária a configuração de alguns paramêtros para a coleta no VCenter.
+<br>
+<br>
+Crie um novo 'Remote devices to inventory' e para este remote device crie um 'Authentication for remote devices', credencias de vizualização apenas no VCenter.
 
-3 - Rode o fusioninventory-agent depois que o plugin já esteja estabelecido no GLPI:
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+4 - Rode o fusioninventory-agent depois que o plugin já esteja estabelecido no GLPI:
 <br>
 <br>
 
