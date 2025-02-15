@@ -7,7 +7,6 @@
 ```
 ╭─ 💁 estagiario at 💻 estagiario in 📁 ~/GLPI-NETBOX-Integration on (🌿 main ✓)
 ╰λ sudo apt install fusioninventory-agent
-
 ```
 <br>
 2 - 
