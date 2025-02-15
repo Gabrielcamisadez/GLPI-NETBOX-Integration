@@ -3,17 +3,19 @@
 
 ## Tecnologias utilizadas ➤ 
 <br>
-🐳 Docker
+🐳 Docker v27.5.1
 <br>
-🐍 Python
+🐳 Docker Compose v2.32.4
+<br>
+🐍 Python v3.12.3
 <br>
 <br>
 
 ## Softwares utilizados ➤ 
 <br>
-❑ GLPI
+❑ GLPI v10.0.6
 <br>
-▤ Netbox
+▤ Netbox 
 <br>
 ⛃ VMware
 <br>

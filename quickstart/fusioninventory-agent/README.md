@@ -9,6 +9,17 @@
 ╰λ sudo apt install fusioninventory-agent
 ```
 <br>
+<br>
+2 - Instale o agent específico para a coleta no VCenter presente em https://documentation.fusioninventory.org/FusionInventory_agent/installation/linux/deb/ para distribuições .deb
+<br>
+<br>
+O arquivo a ser baixado -> fusioninventory-agent-task-esx_2.5.2-1_all.deb
+```
+```
+
+
+
+
 2 - Rode o fusioninventory-agent depois que o plugin já esteja estabelecido no GLPI:
 <br>
 <br>
@@ -36,4 +47,4 @@
 <br>
 - A info 'No job schedule returned from server at http://localhost:8080/' 
 <br>
-indica que na aplicação do GLPI as configurações de uma task ainda não foram efetuadas, sendo necessárias para o funcionamento do plugin
+Indica que na aplicação do GLPI as configurações de uma task ainda não foram efetuadas, sendo necessárias para o funcionamento do plugin
