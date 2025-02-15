@@ -19,4 +19,4 @@
 <br>
 <br>
 
-### 1 - O diretório quickstart contém os simples passos tomados na elaboração deste projeto.
+### 1 - quickstart contém os simples passos tomados na elaboração deste projeto.
