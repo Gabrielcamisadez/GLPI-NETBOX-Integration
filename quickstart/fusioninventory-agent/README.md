@@ -9,10 +9,13 @@
 ╰λ sudo apt install fusioninventory-agent
 ```
 <br>
-2 - Instale o agent específico para a coleta no VCenter presente em https://documentation.fusioninventory.org/FusionInventory_agent/installation/linux/deb/ para distribuições .deb
+2 - Instale o agent específico para a coleta no VCenter presente em :
+<br>
+https://documentation.fusioninventory.org/FusionInventory_agent/installation/linux/deb/ para distribuições .deb
 <br>
 <br>
 O arquivo a ser baixado -> fusioninventory-agent-task-esx_2.5.2-1_all.deb
+<br>
 <br>
 
 ```
