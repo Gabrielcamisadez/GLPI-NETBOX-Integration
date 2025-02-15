@@ -19,4 +19,4 @@
 <br>
 <br>
 
-### 1 - Abre o diretório init para 
+### 1 - O diretório quickstart contém os simples passos tomados na elaboração deste projeto.
