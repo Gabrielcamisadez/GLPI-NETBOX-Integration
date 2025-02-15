@@ -3,16 +3,18 @@
 
 ## Tecnologias utilizadas ➤ 
 <br>
-- Docker
+🐳 Docker
 <br>
-- Python
+🐍 Python
 <br>
 <br>
 
 ## Softwares utilizados ➤ 
 <br>
-- GLPI
+❑ GLPI
 <br>
-- Netbox
+▤ Netbox
 <br>
-- VMware
+⛃ VMware
+<br>
+<br>
