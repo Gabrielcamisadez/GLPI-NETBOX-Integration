@@ -14,13 +14,17 @@
 <br>
 <br>
 O arquivo a ser baixado -> fusioninventory-agent-task-esx_2.5.2-1_all.deb
+<br>
+
 ```
+╭─ 💁 estagiario at 💻 estagiario in 📁 ~/Downloads
+╰λ dpkg -i fusioninventory-agent-task-esx_2.5.2-1_all.deb 
 ```
 
 
 
 
-2 - Rode o fusioninventory-agent depois que o plugin já esteja estabelecido no GLPI:
+3 - Rode o fusioninventory-agent depois que o plugin já esteja estabelecido no GLPI:
 <br>
 <br>
 
