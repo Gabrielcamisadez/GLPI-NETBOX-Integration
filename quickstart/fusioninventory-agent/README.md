@@ -1,4 +1,4 @@
-## Fusioninventory-agent
+## Installation  
 <br>
 1 - Instale o fusioninventory-agent :
 <br>
@@ -9,4 +9,11 @@
 ╰λ sudo apt install fusioninventory-agent
 ```
 <br>
-2 - Rode o fusioninventory-agent depois que o plugin já esteja estabelecido no GLPI
+2 - Rode o fusioninventory-agent depois que o plugin já esteja estabelecido no GLPI:
+<br>
+<br>
+
+```
+╭─integration 💁 estagiario at 💻 estagiario in 📁 ~
+╰λ sudo fusioninventory-agent
+```
