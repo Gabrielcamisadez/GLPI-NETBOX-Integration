@@ -2,6 +2,7 @@
 <br>
 <br>
 ------------------------------------
+<br>
 1 - Instale o ==fusioninventory-agent== :
 <br>
 
@@ -10,6 +11,7 @@
 ╰λ sudo apt install fusioninventory-agent
 
 ```
+<br>
 ------------------------------------
 <br>
 2 - 
