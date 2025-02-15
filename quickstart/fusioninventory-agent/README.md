@@ -32,7 +32,13 @@ O arquivo a ser baixado -> fusioninventory-agent-task-esx_2.5.2-1_all.deb
 3 - No GLPI será necessária a configuração de alguns paramêtros para a coleta no VCenter.
 <br>
 <br>
-Crie um novo 'Remote devices to inventory' e para este remote device crie um 'Authentication for remote devices', credencias de vizualização apenas no VCenter.
+Crie um novo 'Remote devices to inventory' e para este remote device crie um 'Authentication for remote devices'.
+<br>
+<br>
+Credencias apenas com permissões de vizualização já são o suficiente !!
+<br>
+<br>
+Depois de criar estes 2 paramêtros, crie uma nova 'Task' informe os campos necessários e defina o 'Job' da task.
 
 
 
