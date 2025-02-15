@@ -11,7 +11,9 @@
 <br>
 2 - Instale o agent específico para a coleta no VCenter presente em :
 <br>
-https://documentation.fusioninventory.org/FusionInventory_agent/installation/linux/deb/ para distribuições .deb
+https://documentation.fusioninventory.org/FusionInventory_agent/installation/linux/deb/ 
+<br>
+💻 Existem documentações para as outras Distribuições Linux e para Windows !!
 <br>
 <br>
 O arquivo a ser baixado -> fusioninventory-agent-task-esx_2.5.2-1_all.deb
