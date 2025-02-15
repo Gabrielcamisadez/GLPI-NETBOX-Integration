@@ -19,4 +19,3 @@
 <br>
 <br>
 
-### 1 - quickstart contém os simples passos tomados na elaboração deste projeto.
