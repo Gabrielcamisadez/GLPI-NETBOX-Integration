@@ -18,3 +18,5 @@
 ⛃ VMware
 <br>
 <br>
+
+### 1 - Abre o diretório init para 
