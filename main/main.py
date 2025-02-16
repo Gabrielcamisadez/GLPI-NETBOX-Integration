@@ -44,6 +44,6 @@ def get_glpi_device():
 
 
 if __name__ == "__main__":
-    # get_session_token()
+    get_session_token()
     # get_glpi_device()
-    get_netbox_device()
+    # get_netbox_device()
