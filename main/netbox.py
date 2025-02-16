@@ -83,5 +83,5 @@ data_vm = [{
 if __name__ == "__main__":
     # post_device()
     # get_device()
-    update_vm(data_vm)
+    # update_vm(data_vm)
     # update_device(update_devic)

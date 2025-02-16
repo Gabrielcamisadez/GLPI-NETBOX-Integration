@@ -31,6 +31,7 @@ def get_netbox_device():
 
 
 
+
 # --- GLPI FUNCTIONS ---
 # ===========================================
 def get_session_token():
@@ -47,3 +48,4 @@ if __name__ == "__main__":
     get_session_token()
     # get_glpi_device()
     # get_netbox_device()
+
