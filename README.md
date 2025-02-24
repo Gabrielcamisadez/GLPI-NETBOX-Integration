@@ -21,6 +21,6 @@
 <br>
 <br>
 
-## Acesse o diretório quickstart para dar início na instalação desta tool !!
+## Acesse o diretório quickstart para dar início ➤
 <br>
 📁 Quickstart
